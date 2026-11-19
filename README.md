@@ -1,8 +1,7 @@
 <h1>Azure Network Protocol/Networking Capture</h1>
 
-<p align="center">
-<img src="https://i.imgur.com/Clzj7Xs.png" alt="osTicket logo"/>
-</p>
+
+
 
 <h1>Networking - Accessing and Configuration</h1>
 This tutorial outlines the initial process of setting up Virtual Machines and accessing network features across Microsoft and Linux.<br />
@@ -23,11 +22,10 @@ This tutorial outlines the initial process of setting up Virtual Machines and ac
 
 <h2>Post-VM Configuration Objectives</h2>
 
-- Item 1
-- Item 2
-- Item 3
-- Item 4
-- Item 5
+- Establish VM for Windows and Linux OS
+- Insure Windows and Linux VM are established to a network
+- Establish connection/monitoring network of both the Windows VM and Linux machine.
+- Establish ability to access Linux through Powershell network 
 
 <h2>Configuration Steps</h2>
 
@@ -49,9 +47,12 @@ First setup your Virtual Machines with the desired Operating System(s) in mind. 
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://github.com/sparkman787/azure-network-protocols/blob/main/step3.1.PNG"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Now that we have access to the Linux VM, we can now access network capabilities using SSH connection and monitor it on wireshark.
+  With this we can do various things just from Windows Powershell, like creating a file on the desktop to connecting and troubleshooting network settings.
+  Also allowing us to monitor SSH, DHCP, DNS, and RDP traffic.
+  Note this was only used to demonstrate cross OS platform capabilities, this can be replicated as a Win <==> Win platform.
 </p>
 <br />
