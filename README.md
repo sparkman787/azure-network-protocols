@@ -14,6 +14,7 @@ This tutorial outlines the initial process of setting up Virtual Machines and ac
 - Microsoft Azure (Virtual Machines/Compute)
 - Remote Desktop
 - Internet Information Services (IIS)
+- Wireshark
 
 <h2>Operating Systems Used </h2>
 
@@ -31,11 +32,11 @@ This tutorial outlines the initial process of setting up Virtual Machines and ac
 <h2>Configuration Steps</h2>
 
 <p>
-<img src="" height="80%" width="80%" alt="VM Setup"/>
+<img src="https://github.com/sparkman787/azure-network-protocols/blob/main/Creating_VM_LinWIn.PNG"
+/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
+First setup your Virtual Machines with the desired Operating System(s) in mind. For this example I have chosen to use both Microsoft 11 pro OS and Linux Ubuntu (v24).
 <br />
 
 <p>
